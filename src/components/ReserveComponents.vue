@@ -2,7 +2,8 @@
     <section>
         <div class="background">
         <div class="container">
-            <h1>Reserve a Table</h1>
+            <h3 class="sub-heading">Our Reserve</h3>
+            <h1 class="heading">Reserve A Table</h1>
             <form id="reservationForm" @submit.prevent="submitForm">
                 <label for="date">Date:</label>
                 <input type="date" id="date" v-model="form.date" required @blur="validateDate" />
